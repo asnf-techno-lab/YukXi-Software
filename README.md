@@ -44,14 +44,27 @@ YukXi mencakup seluruh kebutuhan pengguna modern, kreator, hingga *developer*:
 
 ---
 
-## 🚀 Cara Penggunaan
+---
 
-1. Unduh file `YukXi_Software.bat` dari repositori ini.
-2. Tempatkan file di direktori mana saja (Desktop/Downloads).
-3. **Klik Kanan -> Run as Administrator** (atau cukup klik dua kali, Shinko Engine akan otomatis meminta hak akses Admin).
-4. Tunggu *Loading Screen* Shinko Engine Core selesai menginisialisasi sistem.
-5. Ketik nomor *software* yang ingin diinstal (contoh: `01` untuk Chrome) lalu tekan **Enter**.
-6. Duduk dan biarkan sistem bekerja! File mentah (`.exe` / `.msi`) akan tersimpan otomatis di `C:\Users\Username\Downloads\YukXi_Downloads` untuk penggunaan *offline* di masa mendatang.
+## 🚀 Protokol Instalasi & Penggunaan (New Delivery System)
+
+Demi menjaga keamanan *source code* dan memberikan pengalaman deployment yang futuristik, YukXi kini menggunakan sistem *Shinko Dropper* dan proteksi kata sandi berbasis web. Ikuti langkah-langkah berikut:
+
+**Fase 1: Inisialisasi Dropper**
+1. Unduh file `instalasiYukXi.bat` dari halaman **Releases** di repositori ini.
+2. Jalankan file tersebut (klik dua kali). 
+3. *Shinko Engine* akan otomatis menarik package utama (`YukXi_YdK.zip`) dari server, mengekstraknya ke folder `Downloads`, dan menghapus file zip mentahnya secara otomatis untuk menjaga kebersihan storage.
+
+**Fase 2: Autentikasi & Dekripsi**
+4. Buka folder hasil ekstraksi tersebut di direktori `Downloads` kamu.
+5. Klik dua kali pada file **`Index.html`**. File ini akan bertindak sebagai jembatan *Meta Refresh* yang otomatis membuka portal web rahasia ASNF Techno Lab di *browser* kamu.
+6. Tunggu *loading screen* selesai, dan ambil **Password Ekstraksi** yang tertera di panel bawah pada halaman web bergaya *Liquid Glass* tersebut.
+7. Kembali ke folder lokalmu, lalu ekstrak file arsip `YukXi_Software.zip` menggunakan kata sandi yang baru saja kamu dapatkan.
+
+**Fase 3: Eksekusi Utama**
+8. Di dalam folder yang sudah terbuka kuncinya, jalankan **`YukXi_Software.bat`**.
+9. *Catatan:* Kamu cukup klik dua kali. Sistem Shinko sudah dirancang cerdas untuk otomatis meminta hak akses Administrator layar biru (UAC).
+10. Ketik nomor *software* yang ingin diinstal, lalu tekan **Enter**. Duduk santai, dan biarkan sistem bekerja!
 
 ---
 
