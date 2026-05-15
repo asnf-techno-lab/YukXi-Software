@@ -1,62 +1,65 @@
-# ⚡ YukXi Software Installer Suite
+# ⚡ YukXi Software Installer Suite v5.00.6
+**Powered by Shinko Engine Core | ASNF Techno Lab**
 
-![Version](https://img.shields.io/badge/Version-5.00.6_Full_Upgrade-00bcd4?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-blue?style=for-the-badge)
-![Ecosystem](https://img.shields.io/badge/Ecosystem-AnXin_Technology-success?style=for-the-badge)
-![Developer](https://img.shields.io/badge/Developer-ASNF_Techno_Lab-black?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-5.00.6_Stable-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-lightgrey)
+![Language](https://img.shields.io/badge/Language-Batchfile-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-**YukXi Software Installer Suite** adalah utilitas otomatisasi berbasis Batch Script yang canggih, ringan, dan cerdas. Ditenagai oleh **Shinko Engine Core**, toolkit ini dirancang untuk mempermudah, mempercepat, dan merapikan proses *deployment* 55 perangkat lunak esensial di sistem operasi Windows.
+YukXi Software Installer Suite adalah sebuah *deployment toolkit* cerdas berbasis Batch yang dirancang untuk mengotomatisasi proses pengunduhan dan instalasi puluhan perangkat lunak esensial di sistem operasi Windows. 
 
----
-
-## 🎯 Mengapa YukXi Diciptakan? (Latar Belakang & Tujuan)
-
-> *Bagian ini didedikasikan untuk visi dan misi di balik pengembangan YukXi.*
-
-**Tujuan Proyek:**
-[NANTI DITAMBAHKAN: Ceritakan untuk apa aplikasi ini dibuat secara spesifik]
-
-**Alasan Pengembangan:**
-[NANTI DITAMBAHKAN: Ceritakan mengapa kamu merasa perlu membuat YukXi, masalah apa yang ingin dipecahkan]
+Ditenagai oleh **Shinko Engine Core**, tool ini memungkinkan *Smart Auto-Setup*, di mana aplikasi akan diunduh secara *real-time* dari server resmi dan diinstal secara *silent* (latar belakang) untuk efisiensi waktu yang maksimal.
 
 ---
 
-## ✨ Fitur Unggulan
+## 📖 The Origin Story: Mengapa YukXi Diciptakan?
 
-* ⚙️ **Powered by Shinko Engine Core:** Mengelola eksekusi, manajemen direktori, dan deteksi lingkungan secara cerdas.
-* 🤖 **Smart Auto-Setup Protocol:** Secara otomatis membedakan mana aplikasi yang bisa di-install di latar belakang (*silent install*) dan mana yang membutuhkan antarmuka setup manual.
-* 🛡️ **Auto-Admin Privilege:** Tidak perlu repot klik kanan. Script akan otomatis meminta hak akses Administrator (UAC) jika belum diberikan.
-* 🌐 **Direct Smart-Fetch (via Curl):** Mengunduh installer versi Stable & Terbaru langsung dari server resmi vendor (Google, Microsoft, GitHub, dll) tanpa *bloatware*.
-* 🖥️ **Locked 120x40 Clean UI:** Antarmuka Command Prompt dikunci pada resolusi optimal untuk memastikan tabel menu selalu rapi dan presisi.
-* 🎨 **ShinkoUI Customization:** Pilihan tema warna bawaan seperti *Liquid Glass Cyan (ASNF Signature)*, *Matrix Terminal*, dan *Crimson Red*.
+> *"Semuanya bermula dari sebuah masalah sederhana yang sering kita temui. Setelah melakukan instalasi ulang Windows, saya mendapati sistem saya benar-benar kosong tanpa browser bawaan yang memadai. Niat awal saya sangatlah sederhana: saya hanya ingin menulis satu file `.bat` kecil untuk mengunduh dan menginstal Google Chrome secara otomatis agar saya tidak perlu repot.* > 
+> *Namun, setelah script Chrome itu berhasil berjalan, sebuah ide besar muncul di kepala saya. Jika saya bisa mengotomatisasi satu browser, mengapa tidak mengotomatisasi seluruh ekosistem *software* yang saya butuhkan pasca-install ulang? Dari satu baris kode sederhana untuk Chrome, proyek ini berevolusi dan berkembang pesat menjadi YukXi Software Installer Suite yang kalian lihat sekarang—sebuah utilitas cerdas dengan 55 opsi perangkat lunak yang terintegrasi langsung dengan standar AnXin Technology Project."*
+>
+> **— M. Nabil Irza Prawira, Director & Founder ASNF Techno Lab**
 
-## 📦 Kategori Perangkat Lunak (55 Apps)
+---
 
-YukXi mendukung instalasi otomatis untuk berbagai kebutuhan:
-1.  **Web Browsers:** Chrome, Firefox, Brave, Opera GX, Edge.
-2.  **Communication:** Zoom, Discord, Telegram, WhatsApp, Slack, Skype.
-3.  **Utilities:** 7-Zip, WinRAR, Rufus, AnyDesk, TeamViewer, HWMonitor, PowerToys, dll.
-4.  **Development:** VS Code, Git, Node.js, Python, Java JRE, Notepad++, XAMPP, Docker, dll.
-5.  **Gaming & Media:** Steam, Epic Games, OBS Studio, VLC, Spotify, dll.
-6.  **Design & Office:** GIMP, Blender, Figma, LibreOffice.
-7.  **Security & Misc:** Malwarebytes, Bitwarden, CCleaner, FileZilla.
+## ✨ Fitur Utama
+
+* **🚀 Smart Auto-Setup Protocol (Shinko Engine)**: Script secara cerdas membedakan mana aplikasi yang mendukung *Silent Install* (tanpa interaksi *user*) dan mana yang membutuhkan antarmuka instalasi manual.
+* **🌐 Real-Time Curl Fetching**: Tidak ada *installer* usang yang disimpan di dalam script. Semua *software* (55 menu) diunduh langsung secara *live* menggunakan URL resmi versi *stable* terbaru ke direktori `Downloads\YukXi_Downloads`.
+* **🛡️ Auto-Administrator Privilege**: Script memiliki modul keamanan *self-elevating* yang otomatis meminta hak akses Administrator saat dijalankan untuk mencegah kegagalan *write-permission* di `C:\Program Files`.
+* **🖥️ ShinkoUI Locked Resolution**: Antarmuka terminal yang sangat bersih dan rapi, dikunci secara presisi pada resolusi `120x40` agar susunan tabel menu tetap *pixel-perfect*.
+* **🎨 Custom UI Themes**: Mendukung personalisasi warna terminal (Liquid Glass Cyan, Matrix Terminal, dll) langsung dari menu Settings.
+
+---
+
+## 📦 Kategori Software yang Tersedia (55 Menu)
+
+YukXi mencakup seluruh kebutuhan pengguna modern, kreator, hingga *developer*:
+1.  **Web Browsers** (Chrome, Firefox, Brave, Opera GX, Edge)
+2.  **Communication** (Zoom, Discord, Telegram, WhatsApp, Slack, dll)
+3.  **Utilities** (7-Zip, WinRAR, Rufus, AnyDesk, CPU-Z, MSI Afterburner, dll)
+4.  **Development** (VS Code, Git, Node.js, Python, XAMPP, Docker, PuTTY, dll)
+5.  **Gaming & Media** (Steam, Epic Games, OBS Studio, VLC, Spotify, dll)
+6.  **Design & Office** (GIMP, Blender, Figma, LibreOffice, dll)
+7.  **Security & Misc** (Malwarebytes, Bitwarden, FileZilla, qBittorrent, dll)
+
+---
 
 ## 🚀 Cara Penggunaan
 
-1.  Unduh file `YukXi_Software.bat` dari repositori ini.
-2.  Klik ganda (*double-click*) pada file tersebut.
-3.  Izinkan *User Account Control* (UAC) jika muncul *prompt* Administrator.
-4.  Tunggu Shinko Engine Core memuat antarmuka.
-5.  Masukkan nomor perangkat lunak yang ingin di-install (contoh: `01` untuk Chrome) lalu tekan **Enter**.
-6.  *Duduk santai*, file akan diunduh ke `Downloads\YukXi_Downloads` dan di-install secara otomatis!
-
-## 🏢 Tentang Pengembang
-
-Dikembangkan dan dipelihara secara eksklusif oleh:
-**M. Nabil Irza Prawira**
-*Founder, CEO & Director of ASNF Techno Lab / AnXin Technology Project*
-
-> *"Lhokseumawe Pride - Innovating the Future of Tech"*
+1. Unduh file `YukXi_Software.bat` dari repositori ini.
+2. Tempatkan file di direktori mana saja (Desktop/Downloads).
+3. **Klik Kanan -> Run as Administrator** (atau cukup klik dua kali, Shinko Engine akan otomatis meminta hak akses Admin).
+4. Tunggu *Loading Screen* Shinko Engine Core selesai menginisialisasi sistem.
+5. Ketik nomor *software* yang ingin diinstal (contoh: `01` untuk Chrome) lalu tekan **Enter**.
+6. Duduk dan biarkan sistem bekerja! File mentah (`.exe` / `.msi`) akan tersimpan otomatis di `C:\Users\Username\Downloads\YukXi_Downloads` untuk penggunaan *offline* di masa mendatang.
 
 ---
-© 2026 ASNF Techno Lab. All Rights Reserved.
+
+## 👨‍💻 Tentang Ekosistem
+
+YukXi Software Installer Suite adalah bagian dari ekosistem teknologi **ASNF Techno Lab** dan **AnXin Technology Project**, berjalan berdampingan dengan proyek-proyek inovatif lainnya seperti *AnXin A.I., Shinko Bio, ShinkoUI, AI Name Vault, Magic Random Pro,* dan *AIOG*.
+
+**"Lhokseumawe Pride - Innovating the Future of Tech"**
+
+---
+*© 2026 M. Nabil Irza Prawira | ASNF Techno Lab. All Rights Reserved.*
